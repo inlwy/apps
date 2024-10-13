@@ -1,1 +1,88 @@
-3232323232
+- time -
+{hour:1} - hour | 24 hour format | 00 - 23
+{hour:2} - hour | 12 hour format | 00 - 12
+{min:1} - minutes | 24 hour format | 00 - 59
+{min:2} - minutes | 24 hour format | 00 - 59 AM or 00 - 59 PM
+
+- Day Month Year (TH) -
+{th=date} - Date | 1 - 31
+{th=week:1} - Abbreviated day names | Mon. - Sun.
+{th=week:2} - Full day name | Monday - Sunday
+{th=month:1} - Number month | 1 - 12
+{th=month:2} - Abbreviated month | Jan. - Dec.
+{th=month:3} - Full month | January - December
+{th=year:1} - Abbreviated year | 67
+{th=year:2} - full year | 2567
+
+- Day Month Year (EN) -
+{en=date} - Date | 1st - 31st
+{en=week:1} - Abbreviated day names | Mon - Sun
+{en=week:2} - full day name | Monday - Sunday
+{en=month:1} - Month number | 1 - 12
+{en=month:2} - Abbreviated month | Jan - Dec
+{en=month:3} - full month | January - December
+{en=year:1} - abbreviated year | 24
+{en=year:2} - full year | 2024
+
+- Weather - ( https://www.weatherapi.com/weather )
+{city} - City | Mae Sai
+{region} - Province | Chiang Rai
+{country} - Country | Thailand
+{temp:c} - Temperature | Units celcius °C | 29
+{temp:f} - Temperature | Units fahrenheit °F | 84.2
+{wind:kph} - Wind speed | Units kilometer per hour | 3.6
+{wind:mph} - Wind speed | Units miles per hour | 2.2
+{wind:degree} - Wind direction | Units degrees ° | 160
+{wind:dir} - Wind direction | Units 16 points compass | SSE
+{pressure:mb} - Air pressure | Units millibar mbar | 1007
+{pressure:in} - Air pressure | Units inches of mercury inHg | 29.74
+{precip:mm} - Rainfall | Units millimeter mm | 3.65
+{precip:in} - amount of precipitation | in inches | 0.14
+{gust:kph} - gust | in kilometers per hour | 10.6
+{gust:mph} - gust | in miles per hour | 6.6
+{feelslike:c} - Feeling temperature | °C celcius | 20.7
+{feelslike:f} - Feeling temperature | °F fahrenheit | 69.3
+{windchill:c} - Wind chill temperature | °C celcius | 20.7
+{windchill:f} - Wind chill temperature | °F fahrenheit | 69.3
+{heatindex:c} - Heat index | °C celcius | 20.7
+{heatindex:f} - Heat index | °F fahrenheit | 69.3
+{dewpoint:c} - Dew point | °C celcius | 20.6
+{dewpoint:f} - Dew point | °F fahrenheit | 69.1
+{vis:km} - Visibility | Kilometer | 4.5
+{vis:mi} - Visibility | Miles | 2.0
+{humidity} - Humidity | Unit percentage % | 52
+{cloud} - Cloud | Unit percentage % | 0
+{uv} - UV value | Unit Index | 1
+{pm2.5} - PM 2.5 dust value | Unit μg/m3 | 4.3
+
+- System -
+{ping} - Ping value | in ms | 99
+{patch} - Show PATCH | 7.0.0
+{cpu:name} - CPU name | Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
+{cpu:cores} - CPU cores | 4
+{cpu:speed} - CPU speed | in GHz | 2.0
+{cpu:usage} - CPU usage | in percentage % | 99
+{ram:usage} - RAM usage | in percentage % | 99
+{uptime:days} - Uptime | in days | 1
+{uptime:hours} - Uptime | in hours | 20
+{uptime:minutes} - Uptime | in minutes | 57
+{uptime:seconds} - Uptime | in seconds | 58
+
+- User -
+{user:name} - Username | in love w/ you
+{guild=members:<GUILD ID>} - Number of members on the server | 251
+{guild=name:<GUILD ID>} - Server name | 𝐈𝐍𝐋𝐖𝐘 𝐒𝐄𝐑𝐕𝐄𝐑
+{guild=icon:<GUILD ID>} - Server image | Gets a URL (not available in Moving state)
+
+- Emoji -
+{emoji:random} - Random emoji
+{emoji:time} - Dawn emoji based on time | ☀️ , 🌙
+{emoji:clock} - Clock emoji based on time | 🕖
+
+- Font -
+{NF1(<TEXT>)} - ๐-๙ (Number only)
+{NF2(<TEXT>)} - 𝕒-𝕫 𝔸-ℤ 𝟘-𝟡
+{NF3(<TEXT>)} - 𝗮-𝘇 𝗔-𝗭 𝟬-𝟵
+{NF4(<TEXT>)} - 𝐚-𝐳 𝐀-𝐙 𝟎-𝟗
+{NF5(<TEXT>)} - 𝟶-𝟿 (Number only)
+{NF6(<TEXT>)} - 𝟢-𝟫 (Number only)
