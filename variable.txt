@@ -40,14 +40,6 @@
 {precip:in} - amount of precipitation | in inches | 0.14
 {gust:kph} - gust | in kilometers per hour | 10.6
 {gust:mph} - gust | in miles per hour | 6.6
-{feelslike:c} - Feeling temperature | °C celcius | 20.7
-{feelslike:f} - Feeling temperature | °F fahrenheit | 69.3
-{windchill:c} - Wind chill temperature | °C celcius | 20.7
-{windchill:f} - Wind chill temperature | °F fahrenheit | 69.3
-{heatindex:c} - Heat index | °C celcius | 20.7
-{heatindex:f} - Heat index | °F fahrenheit | 69.3
-{dewpoint:c} - Dew point | °C celcius | 20.6
-{dewpoint:f} - Dew point | °F fahrenheit | 69.1
 {vis:km} - Visibility | Kilometer | 4.5
 {vis:mi} - Visibility | Miles | 2.0
 {humidity} - Humidity | Unit percentage % | 52
