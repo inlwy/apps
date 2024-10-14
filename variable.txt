@@ -72,7 +72,7 @@
 {emoji:clock} - Clock emoji based on time | 🕖
 
 - Font -
-{NF1(<TEXT>)} - ๐-๙ ( Number only )
+{NF1(<TEXT>)} - ๐-๙ ( Number only)
 {NF2(<TEXT>)} - 𝕒-𝕫 𝔸-ℤ 𝟘-𝟡
 {NF3(<TEXT>)} - 𝗮-𝘇 𝗔-𝗭 𝟬-𝟵
 {NF4(<TEXT>)} - 𝐚-𝐳 𝐀-𝐙 𝟎-𝟗
