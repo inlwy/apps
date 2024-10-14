@@ -1,28 +1,28 @@
-- time -
-{hour:1} - hour | 24 hour format | 00 - 23
-{hour:2} - hour | 12 hour format | 00 - 12
-{min:1} - minutes | 24 hour format | 00 - 59
-{min:2} - minutes | 24 hour format | 00 - 59 AM or 00 - 59 PM
+- Time -
+{hour:1} - Hour | 24-hour format | 00 - 23
+{hour:2} - Hour | 12-hour format | 00 - 12
+{min:1} - Minute | 24-hour format | 00 - 59
+{min:2} - Minute | 24-hour format | 00 - 59 AM or 00 - 59 PM
 
 - Day Month Year (TH) -
 {th=date} - Date | 1 - 31
-{th=week:1} - Abbreviated day names | Mon. - Sun.
-{th=week:2} - Full day name | Monday - Sunday
-{th=month:1} - Number month | 1 - 12
-{th=month:2} - Abbreviated month | Jan. - Dec.
-{th=month:3} - Full month | January - December
-{th=year:1} - Abbreviated year | 67
-{th=year:2} - full year | 2567
+{th=week:1} - Abbreviated Day Name | Mon - Sun
+{th=week:2} - Full Day Name | Mon - Sun
+{th=month:1} - Numeric Month | 1 - 12
+{th=month:2} - Abbreviated Month | Jan - Dec
+{th=month:3} - Full Month | Jan - Dec
+{th=year:1} - Abbreviated Year | 67
+{th=year:2} - Full year | 2567
 
 - Day Month Year (EN) -
 {en=date} - Date | 1st - 31st
-{en=week:1} - Abbreviated day names | Mon - Sun
-{en=week:2} - full day name | Monday - Sunday
-{en=month:1} - Month number | 1 - 12
+{en=week:1} - Abbreviated day name | Mon - Sun
+{en=week:2} - Full day name | Monday - Sunday
+{en=month:1} - Numeric month | 1 - 12
 {en=month:2} - Abbreviated month | Jan - Dec
-{en=month:3} - full month | January - December
-{en=year:1} - abbreviated year | 24
-{en=year:2} - full year | 2024
+{en=month:3} - Full month | January - December
+{en=year:1} - Abbreviated year | 24
+{en=year:2} - Full year | 2024
 
 - Weather - ( https://www.weatherapi.com/weather )
 {city} - City | Mae Sai
@@ -37,14 +37,14 @@
 {pressure:mb} - Air pressure | Units millibar mbar | 1007
 {pressure:in} - Air pressure | Units inches of mercury inHg | 29.74
 {precip:mm} - Rainfall | Units millimeter mm | 3.65
-{precip:in} - amount of precipitation | in inches | 0.14
-{gust:kph} - gust | in kilometers per hour | 10.6
-{gust:mph} - gust | in miles per hour | 6.6
-{vis:km} - Visibility | Kilometer | 4.5
-{vis:mi} - Visibility | Miles | 2.0
-{humidity} - Humidity | Unit percentage % | 52
-{cloud} - Cloud | Unit percentage % | 0
-{uv} - UV value | Unit Index | 1
+{precip:in} - Rainfall | Inches in | 0.14
+{gust:kph} - Gusts | Kilometers per hour | 10.6
+{gust:mph} - Gusts | Miles per hour | 6.6
+{vis:km} - Visibility | kilometer | 4.5
+{vis:mi} - Visibility | miles | 2.0
+{humidity} - Humidity | percentage % | 52
+{cloud} - Clouds | percentage % | 0
+{uv} - UV index | Index | 1
 {pm2.5} - PM 2.5 dust value | Unit μg/m3 | 4.3
 
 - System -
