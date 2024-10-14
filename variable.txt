@@ -40,16 +40,29 @@
 {precip:in} - Rainfall | Inches in | 0.14
 {gust:kph} - Gusts | Kilometers per hour | 10.6
 {gust:mph} - Gusts | Miles per hour | 6.6
+{feelslike:c} - Feels like temperature | In Celsius °C | 20.7
+{feelslike:f} - Feels like temperature | In Fahrenheit °F | 69.3
+{windchill:c} - Wind chill temperature | celcius °C | 20.7
+{windchill:f} - Wind chill temperature | fahrenheit °F | 69.3
+{heatindex:c} - Heat index | celcius °C | 20.7
+{heatindex:f} - Heat index | fahrenheit °F | 69.3
+{dewpoint:c} - Dew point | celcius °C | 20.6
+{dewpoint:f} - Dew point | fahrenheit °F | 69.1
 {vis:km} - Visibility | kilometer | 4.5
 {vis:mi} - Visibility | miles | 2.0
 {humidity} - Humidity | percentage % | 52
 {cloud} - Clouds | percentage % | 0
 {uv} - UV index | Index | 1
+{co} - Carbon monoxide | Unit μg/m3 | 260.4
+{no2} - Nitrogen dioxide | Unit μg/m3 | 1.8
+{o3} - Ozone | Unit μg/m3 | 0.9
+{so2} - Sulphur dioxide | Unit μg/m3 | 0.2
 {pm2.5} - PM 2.5 dust value | Unit μg/m3 | 4.3
+{pm10} - PM 10 dust value | Unit μg/m3 | 4.8
 
 - System -
 {ping} - Ping value | in ms | 99
-{patch} - Show PATCH | 2.0.1
+{patch} - Show PATCH | 7.0.0
 {cpu:name} - CPU name | Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
 {cpu:cores} - CPU cores | 4
 {cpu:speed} - CPU speed | in GHz | 2.0
@@ -62,9 +75,12 @@
 
 - User -
 {user:name} - Username | in love w/ you
+{user:icon} - User image | Get URL (Not available in Move state)
+{user:banner} - User banner | Get URL (Not available in Move state)
 {guild=members:<GUILD ID>} - Number of members on the server | 251
 {guild=name:<GUILD ID>} - Server name | 𝐈𝐍𝐋𝐖𝐘 𝐒𝐄𝐑𝐕𝐄𝐑
-{guild=icon:<GUILD ID>} - Server image | Gets a URL (not available in Moving state)
+{guild=icon:<GUILD ID>} - Server image | Get URL (Not available in Move state)
+{guild=owner:<GUILD ID>} - Shows the name of the server owner whose ID you specified instead of <GUILD ID> | You need to be a member of the server to be able to recognize it, otherwise '?' will be displayed
 
 - Emoji -
 {emoji:random} - Random emoji
