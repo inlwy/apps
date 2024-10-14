@@ -62,7 +62,7 @@
 
 - System -
 {ping} - Ping value | in ms | 99
-{patch} - Show PATCH | 7.0.0
+{patch} - Show PATCH | 2.1.0
 {cpu:name} - CPU name | Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
 {cpu:cores} - CPU cores | 4
 {cpu:speed} - CPU speed | in GHz | 2.0
