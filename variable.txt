@@ -78,10 +78,10 @@
 {user:icon} - User image | Get URL (Not available in Move state)
 {user:banner} - User banner | Get URL (Not available in Move state)
 ┌───────────────────────────────────────────────────────────────────────────────────┐
-│ {guild=members:<GUILD ID>} - Number of members on the server / 251                │
-│ {guild=name:<GUILD ID>} - Server name / 𝗜𝗡𝗟𝗪𝗬 𝗦𝗘𝗥𝗩𝗘𝗥                             │ => You need to be a member of the server to be able to recognize it.
-│ {guild=icon:<GUILD ID>} - Server image / Get URL (Not available in Move state)    │
-│ {guild=owner:<GUILD ID>} - Server owner name / 𝗪𝗢𝗥𝗞𝗦 𝗢𝗡𝗟𝗬 𝗪𝗜𝗧𝗛 𝗖𝗨𝗦𝗧𝗢𝗠 𝗦𝗧𝗔𝗧𝗨𝗦  │
+│ {guild=members:<GUILD ID>} - Number of members on the server / 251
+│ {guild=name:<GUILD ID>} - Server name / 𝗜𝗡𝗟𝗪𝗬 𝗦𝗘𝗥𝗩𝗘𝗥                              => You need to be a member of the server to be able to recognize it.
+│ {guild=icon:<GUILD ID>} - Server image / Get URL (Not available in Move state)
+│ {guild=owner:<GUILD ID>} - Server owner name / 𝗪𝗢𝗥𝗞𝗦 𝗢𝗡𝗟𝗬 𝗪𝗜𝗧𝗛 𝗖𝗨𝗦𝗧𝗢𝗠 𝗦𝗧𝗔𝗧𝗨𝗦
 └───────────────────────────────────────────────────────────────────────────────────┘
 
 - Emoji -
