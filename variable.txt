@@ -80,7 +80,7 @@
 {guild=members:<GUILD ID>} - Number of members on the server | 251
 {guild=name:<GUILD ID>} - Server name | 𝐈𝐍𝐋𝐖𝐘 𝐒𝐄𝐑𝐕𝐄𝐑
 {guild=icon:<GUILD ID>} - Server image | Get URL (Not available in Move state)
-{guild=owner:<GUILD ID>} - Server owner name | You need to be a member of the server to be able to recognize it, otherwise '?' will be displayed
+{guild=owner:<GUILD ID>} - Server owner name | You need to be a member of the server to be able to recognize it, otherwise '?' will be displayed. (Doesn't work in streaming status)
 
 - Emoji -
 {emoji:random} - Random emoji
