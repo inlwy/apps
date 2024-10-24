@@ -87,13 +87,17 @@
 
 - Emoji -
 {emoji:random} - Random emoji
-{emoji:time} - Dawn emoji based on time | ☀️ , 🌙
+{emoji:time} - Dawn emoji based on time | 🌤️ , ☀️ , 🌙
 {emoji:clock} - Clock emoji based on time | 🕖
+
+- Add-ons -
+{random(<TEXT>)} - Randomize custom text | {random(1,5,7)} => 1 or 5 or 7
 
 - Font -
 {NF1(<TEXT>)} - ๐-๙ ( Number only )
 {NF2(<TEXT>)} - 𝕒-𝕫 𝔸-ℤ 𝟘-𝟡
 {NF3(<TEXT>)} - 𝗮-𝘇 𝗔-𝗭 𝟬-𝟵
-{NF4(<TEXT>)} - 𝐚-𝐳 𝐀-𝐙 𝟎-𝟗
-{NF5(<TEXT>)} - 𝟶-𝟿 ( Number only )
-{NF6(<TEXT>)} - 𝟢-𝟫 ( Number only )
+{NF4(<TEXT>)} - 𝚊-𝚣 𝙰-𝚉 𝟶-𝟿
+{NF5(<TEXT>)} - 𝐚-𝐳 𝐀-𝐙 𝟎-𝟗
+{NF6(<TEXT>)} - 𝟶-𝟿 ( Number only )
+{NF7(<TEXT>)} - 𝟢-𝟫 ( Number only )
