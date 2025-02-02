@@ -30,6 +30,20 @@
 {country} - Country | Thailand
 {temp:c} - Temperature | Units celcius °C | 29
 {temp:f} - Temperature | Units fahrenheit °F | 84.2
+{maxtemp:c} - Maximum temperature in celsius for the day
+{maxtemp:f} - Maximum temperature in fahrenheit for the day
+{mintemp:c} - Minimum temperature in celsius for the day
+{mintemp:f} - Minimum temperature in fahrenheit for the day
+{avgtemp:c} - Average temperature in celsius for the day
+{avgtemp:f} - Average temperature in fahrenheit for the day
+{maxwind:kph} - Maximum wind speed in kilometer per hour
+{maxwind:mph} - Maximum wind speed in miles per hour
+{tprecip:mm} - Total precipitation in milimeter
+{tprecip:in} - Total precipitation in inches
+{tsnow:cm} - Total snowfall in centimeters
+{avgvis:km} - Average visibility in kilometer
+{avgvis:mil} - Average visibility in miles
+{avghumidity} - Average humidity as percentage
 {wind:kph} - Wind speed | Units kilometer per hour | 3.6
 {wind:mph} - Wind speed | Units miles per hour | 2.2
 {wind:degree} - Wind direction | Units degrees ° | 160
