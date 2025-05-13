@@ -107,6 +107,7 @@
 
 - Add-ons -
 {random(<TEXT>)} - Randomize custom text | {random(1,5,7)} => 1 or 5 or 7
+{randnumber} - Random number from 1 to 100
 
 - Font -
 {NF1(<TEXT>)} - ๐-๙ ( Number only )
